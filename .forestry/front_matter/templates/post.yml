@@ -7,6 +7,12 @@ fields:
   config:
     required: false
   label: Title
+- name: description
+  type: text
+  config:
+    required: true
+  label: Description
+  description: 'This is a test. '
 - name: excerpt
   type: text
   config:
@@ -34,7 +40,7 @@ fields:
 - name: hero
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Hero Image
 - name: authors
   type: tag_list
